@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain - Left it Rain Coffee</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+</head>
+
+<body>
+
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+    
+            <!-- nav bar -->
+            <a class="navbar-brand" href="index.html">
+                <img src="./imgs/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- nav list -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- lists -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">whats on!</a>
+                    </li>
+                </ul>
+                <!-- nav right -->
+                <div class="nav-right">
+                    <div class="btns">
+                        <button><a href="#">Login</a>/<a href="#">Register</a></button>
+                    </div>
+                    <div class="icons">
+                        <button>
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <button>
+                            <i class="bi bi-heart"></i>
+                            <span>0</span>
+                        </button>
+                        <button>
+                            <i class="bi bi-bag"></i>
+                        </button>
+                        <span class="total">0.00 AED</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- page title -->
+    <div class="page-title">
+        <h2>Shop</h2>
+        <div class="options">
+            <div class="opt">
+                <div class="opt-img">
+                    <img src="./imgs/opt-1.png" alt="">
+                </div>
+                <div class="opt-info">
+                    <span>ITEMS</span>
+                    <p>4 Products</p>
+                </div>
+            </div>
+            <div class="opt">
+                <div class="opt-img">
+                    <img src="./imgs/opt-2.png" alt="">
+                </div>
+                <div class="opt-info">
+                    <span>TREATS</span>
+                    <p>9 Products</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- product filter -->
+    <div class="products-filter pd">
+        <div class="container">
+            <div class="products-filter-content">
+                <div class="row">
+                    <div class="left col-sm-12 col-md-12 col-lg-3">
+                        <h6 class="left-title">
+                            FILTER BY PRICE
+                        </h6>
+                        <div class="left-radios">
+                                <div class="range">
+                                    <input type="range" class="form-range" id="customRange1" />
+                                </div>
+                        </div>
+                        <div class="left-prices">
+                            <span>Price: 30 AED — 320 AED</span>
+                            <button>FILTER</button>
+                        </div>
+                    </div>
+                    <div class="right col-sm-12 col-md-12 col-lg-9">
+                        <div class="row">
+                            <div class="item col-sm-12 col-md-6 col-lg-4">
+                                <div class="item-content">
+                                    <div class="img">
+                                        <img src="./imgs/pr-1.jpg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <span class="info-title">Rain Coffee Box</span>
+                                        <span class="info-price">123.00 AED</span>
+                                        <p class="info-desc">Choose the Box Size you want! Small box (4 pieces) or Big
+                                            box (8 pieces)</p>
+                                        <div class="info-bottom">
+                                            <button class="icon">
+                                                <i class="bi bi-heart"></i>
+                                            </button>
+                                            <button class="btn">SELECT OPTION</button>
+                                            <button class="icon">
+                                                <i class="bi bi-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-sm-12 col-md-6 col-lg-4">
+                                <div class="item-content">
+                                    <div class="img">
+                                        <img src="./imgs/pr-2.jpeg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <span class="info-title">RAIN Tumblers</span>
+                                        <span class="info-price">95.00 AED</span>
+                                        <p class="info-desc">Please Select the Size you want!</p>
+                                        <div class="info-bottom">
+                                            <button class="icon">
+                                                <i class="bi bi-heart"></i>
+                                            </button>
+                                            <button class="btn">SELECT OPTION</button>
+                                            <button class="icon">
+                                                <i class="bi bi-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-sm-12 col-md-6 col-lg-4">
+                                <div class="item-content">
+                                    <div class="img">
+                                        <img src="./imgs/pr-3.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <span class="info-title">Fluffy Cheesecake</span>
+                                        <span class="info-price">270.00 AED</span>
+                                        <p class="info-desc">(Orders will be delivered within 24 hours)</p>
+                                        <div class="info-bottom">
+                                            <button class="icon">
+                                                <i class="bi bi-heart"></i>
+                                            </button>
+                                            <button class="btn">SELECT OPTION</button>
+                                            <button class="icon">
+                                                <i class="bi bi-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-sm-12 col-md-6 col-lg-4">
+                                <div class="item-content">
+                                    <div class="img">
+                                        <img src="./imgs/pr-4.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <span class="info-title">Ice Cream Boxes</span>
+                                        <span class="info-price">104.00 AED</span>
+                                        <p class="info-desc">Select Boxe Size</p>
+                                        <div class="info-bottom">
+                                            <button class="icon">
+                                                <i class="bi bi-heart"></i>
+                                            </button>
+                                            <button class="btn">SELECT OPTION</button>
+                                            <button class="icon">
+                                                <i class="bi bi-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-sm-12 col-md-6 col-lg-4">
+                                <div class="item-content">
+                                    <div class="img">
+                                        <img src="./imgs/pr-5.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <span class="info-title">Rain Tumbler Cup</span>
+                                        <span class="info-price">95.00 AED</span>
+                                        <p class="info-desc">Delivery in 24h only Tumbler Cup Made by Rain</p>
+                                        <div class="info-bottom">
+                                            <button class="icon">
+                                                <i class="bi bi-heart"></i>
+                                            </button>
+                                            <button class="btn">SELECT OPTION</button>
+                                            <button class="icon">
+                                                <i class="bi bi-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-sm-12 col-md-6 col-lg-4">
+                                <div class="item-content">
+                                    <div class="img">
+                                        <img src="./imgs/pr-6.jpg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <span class="info-title">Mix Juices Box</span>
+                                        <span class="info-price">144.00 AED</span>
+                                        <p class="info-desc">LET IT RAIN JUICE! - Monsoon - Passion fruit mojito - Pink
+                                            Lemonade - Peach Ice Tea
+                                            - Lemonade Juice</p>
+                                        <div class="info-bottom">
+                                            <button class="icon">
+                                                <i class="bi bi-heart"></i>
+                                            </button>
+                                            <button class="btn">SELECT OPTION</button>
+                                            <button class="icon">
+                                                <i class="bi bi-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="item col-sm-12 col-md-6 col-lg-4">
+                                <div class="item-content">
+                                    <div class="img">
+                                        <img src="./imgs/pr-7.jpeg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <span class="info-title">Ice Cream Boxes</span>
+                                        <span class="info-price">104.00 AED</span>
+                                        <p class="info-desc">Select Boxe Size</p>
+                                        <div class="info-bottom">
+                                            <button class="icon">
+                                                <i class="bi bi-heart"></i>
+                                            </button>
+                                            <button class="btn">SELECT OPTION</button>
+                                            <button class="icon">
+                                                <i class="bi bi-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <span>RAIN <i class="bi bi-c-circle"></i> 2021 CREATED BY <a href="#">MOHAMED</a></span>
+                <img src="./imgs/carts.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
