@@ -74,6 +74,12 @@ button {
   width: 150px;
 }
 
+.navbar .navbar-collapse {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .navbar .navbar-collapse .navbar-nav .nav-item {
   margin-right: 10px;
 }
@@ -93,19 +99,19 @@ button {
   color: #009dd4;
 }
 
-.navbar .nav-right {
+.navbar .navbar-collapse .nav-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.navbar .nav-right .btns {
+.navbar .navbar-collapse .nav-right .btns {
   margin-right: 30px;
   padding-right: 30px;
   position: relative;
 }
 
-.navbar .nav-right .btns button a {
+.navbar .navbar-collapse .nav-right .btns button a {
   text-decoration: none;
   text-transform: uppercase;
   padding: 0 3px;
@@ -114,7 +120,7 @@ button {
   font-weight: 600;
 }
 
-.navbar .nav-right .btns::after {
+.navbar .navbar-collapse .nav-right .btns::after {
   content: "";
   position: absolute;
   right: 0;
@@ -126,12 +132,12 @@ button {
   background: #e4e4e4;
 }
 
-.navbar .nav-right .icons button {
+.navbar .navbar-collapse .nav-right .icons button {
   position: relative;
   margin-right: 15px;
 }
 
-.navbar .nav-right .icons button span {
+.navbar .navbar-collapse .nav-right .icons button span {
   position: absolute;
   top: -3px;
   right: -5px;
@@ -152,16 +158,16 @@ button {
   font-size: 10px;
 }
 
-.navbar .nav-right .icons button i {
+.navbar .navbar-collapse .nav-right .icons button i {
   font-size: 15px;
   font-size: 17px;
 }
 
-.navbar .nav-right .icons button:last-child {
+.navbar .navbar-collapse .nav-right .icons button:last-child {
   margin-right: 0;
 }
 
-.navbar .nav-right .icons .total {
+.navbar .navbar-collapse .nav-right .icons .total {
   font-weight: 600;
   font-size: 13px;
 }
